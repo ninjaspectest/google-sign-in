@@ -12,11 +12,7 @@ body {
     user-select: none;
     background-color: white;
     color: black;
-}
- #g-signin2 {
-    display: inline-block;
-}
-// here
+
 ::-webkit-scrollbar-thumb {
     background-color: white;
 }
