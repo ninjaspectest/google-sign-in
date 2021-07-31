@@ -3,11 +3,10 @@
 <html>
     <head>
         <title>Welcome Back</title>
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="../style.css">
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-        <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+        <meta name="google-signin-client_id" content="899079990161-ssqtje1a50qsrt88jm0tdndpsgdu5l9r.apps.googleusercontent.com">
     </head>
     <body>
         <div class="main">
@@ -45,6 +44,7 @@
                         <input type="password" id="password" placeholder="Password" style="margin-bottom: 15px;">
                     </div>
                     <button type="submit" id="submit-form">Login</button>
+                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
                     <span id="new-here">New here? <a href="https://ninjaspect.github.io/#signup">Signup</a></span>
                 </div>
             </div>
@@ -57,6 +57,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="script.js"></script>
         <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
         <script>
             $(function () {
                 AOS.init();
