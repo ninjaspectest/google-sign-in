@@ -13,6 +13,7 @@ body {
     background-color: white;
     color: black;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: white;
 }
